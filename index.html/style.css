@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    background-image: url(cenario-passo0.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top;
+    color:aliceblue;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin: 0px;
+}
+
+button {
+    background-color: brown; 
+    color: aliceblue;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 100%;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+    height: 50px;
+    font-size: 150%;
+}
